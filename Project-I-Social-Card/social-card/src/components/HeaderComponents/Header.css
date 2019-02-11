@@ -1,9 +1,14 @@
-img {
-  width: 5%;
+.app {
+  border: 1px solid blue;
 }
+
 .header-wrapper {
   display: flex;
 }
+.lambda-logo-img {
+  width: 5%;
+}
+
 .header-title {
   display: flex;
   margin-left: 8%;
@@ -20,4 +25,9 @@ span {
 .header-content {
   margin-left: 8%;
   margin-top: 0%;
+}
+
+.card-banner-img {
+  width: 92%;
+  margin-left: 8%;
 }

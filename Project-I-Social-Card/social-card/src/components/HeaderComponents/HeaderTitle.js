@@ -5,9 +5,11 @@ const timeStamp = moment();
 
 const HeaderTitle = () => {
   return (
-    <div>
-      <h3>Lambda School</h3>
-      <span>@LambdaSchool - {timeStamp.format("Do MMM")}</span>
+    <div className="header-wrapper">
+      <div className="header-title">
+        <h4>Lambda School</h4>
+        <span>@LambdaSchool - {timeStamp.format("Do MMM")}</span>
+      </div>
     </div>
   );
 };

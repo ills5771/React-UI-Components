@@ -1,1 +1,23 @@
-/* All styles for your header Components live here */
+img {
+  width: 5%;
+}
+.header-wrapper {
+  display: flex;
+}
+.header-title {
+  display: flex;
+  margin-left: 8%;
+  margin-top: -5%;
+}
+h4 {
+  margin-top: 0%;
+  margin-right: 7px;
+}
+span {
+  opacity: 0.5;
+  font-size: 13px;
+}
+.header-content {
+  margin-left: 8%;
+  margin-top: 0%;
+}

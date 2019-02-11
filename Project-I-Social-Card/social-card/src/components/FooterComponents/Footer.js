@@ -4,10 +4,18 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer-container">
-      <p>comment</p>
-      <p>retweet</p>
-      <p>like</p>
-      <p>email</p>
+      <i class="large material-icons" style={{ opacity: "0.5" }}>
+        chat_bubble_outline
+      </i>
+      <i class="large material-icons" style={{ opacity: "0.5" }}>
+        autorenew
+      </i>
+      <i class="large material-icons" style={{ opacity: "0.5" }}>
+        favorite_border
+      </i>
+      <i class="large material-icons" style={{ opacity: "0.5" }}>
+        mail_outline
+      </i>
     </div>
   );
 };

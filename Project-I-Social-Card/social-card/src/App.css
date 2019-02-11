@@ -5,4 +5,5 @@
 .app {
   width: 650px;
   margin-left: 5%;
+  border: 1px solid blue;
 }

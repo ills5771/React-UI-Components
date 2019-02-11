@@ -5,8 +5,8 @@ const HeaderContainer = () => {
   return (
     <div className="header-container">
       <ImageThumbnail />
-      <HeaderTitle />
-      <HeaderContent />
+      {/* <HeaderTitle />
+      <HeaderContent /> */}
     </div>
   );
 };

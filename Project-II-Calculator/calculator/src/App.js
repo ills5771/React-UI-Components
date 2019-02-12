@@ -10,7 +10,20 @@ const App = () => {
       <CalculatorDisplay />
       <ActionButton text="clear" />
       <NumberButton buttonStyle="red-button" text="÷" />
-      <NumberButton text="7" />
+      <NumberButton buttonStyle="number-button" text="7" />
+      <NumberButton buttonStyle="number-button" text="8" />
+      <NumberButton buttonStyle="number-button" text="9" />
+      <NumberButton buttonStyle="red-button" text="x" />
+      <NumberButton buttonStyle="number-button" text="4" />
+      <NumberButton buttonStyle="number-button" text="5" />
+      <NumberButton buttonStyle="number-button" text="6" />
+      <NumberButton buttonStyle="red-button" text="-" />
+      <NumberButton buttonStyle="number-button" text="1" />
+      <NumberButton buttonStyle="number-button" text="2" />
+      <NumberButton buttonStyle="number-button" text="3" />
+      <NumberButton buttonStyle="red-button" text="+" />
+      <ActionButton text="0" />
+      <NumberButton buttonStyle="red-button" text="=" />
     </div>
   );
 };

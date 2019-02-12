@@ -2,23 +2,22 @@
   display: flex;
 }
 .lambda-logo-img {
-  width: 5%;
+  width: 7%;
+  margin-top: 2%;
 }
 
 .header-title {
   display: flex;
-  margin-left: 8%;
-  margin-top: -5%;
+  margin: -8% 0 0 8%;
 }
 h4 {
-  margin-top: 0%;
-  margin-right: 7px;
+  margin: 0 7px 0 0;
 }
 span {
   opacity: 0.5;
-  font-size: 13px;
+  font-size: 14px;
 }
 .header-content {
+  margin-top: -3%;
   margin-left: 8%;
-  margin-top: 0%;
 }
